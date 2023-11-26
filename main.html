@@ -4,11 +4,47 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<h1>Feedback Form</h1>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	
+	
+<form action="/action_page.php" method="post">
+
+
+	
+  <label id = "name" for = "name" >Name</label><br>	
+  <input type="text" id="name" minlength = "3" maxlength ="50"><br>
+
+	
+  <label id= "portfolio" for = "portfolio" >Portfolio</label><br>
+  <input type="URL" id="portfolio" name="portfolio"><br>
+	
+  <label id= "favColor" for = "favColor" >Favorite Color</label><br>
+  <input type="Color" id="favColor" name="favColor"><br>
+
+ <label id= "likeness" for = "likeness" >Likeness</label><br>
+  <input type = "range" min= "1" max="100" id="likeness" name="likeness"><br>
+
+
+
+
+	
+<input type="submit" value="Submit">
+
+</form>
+
+
+
+
+
+
+
+
+	
+    <script type="text/javascript" src="./script.js">			
 </script>
 
 </body>
